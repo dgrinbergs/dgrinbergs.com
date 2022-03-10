@@ -23,7 +23,7 @@ const Footer = () => {
       </p>
       <ul className="flex flex-col space-y-2">
         {links.map(({ name, href }) => (
-          <a href={href} key={name}>{name} &rarr;</a>
+          <a href={href} key={name} target="_blank" rel="noreferrer">{name} &rarr;</a>
         ))}
       </ul>
     </footer>
