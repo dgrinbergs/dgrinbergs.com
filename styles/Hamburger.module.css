@@ -14,11 +14,11 @@
   transform: rotate(180deg);
 }
 .line {
-  fill:none;
+  fill: none;
   transition: stroke-dasharray 200ms, stroke-dashoffset 200ms;
-  stroke:#000;
-  stroke-width:5.5;
-  stroke-linecap:round;
+  stroke: #000;
+  stroke-width: 5.5;
+  stroke-linecap: round;
 }
 .top {
   stroke-dasharray: 40 121;
@@ -31,4 +31,10 @@
 }
 .active .bottom {
   stroke-dashoffset: -68px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .line {
+    stroke: rgb(212 212 212);
+  }
 }
