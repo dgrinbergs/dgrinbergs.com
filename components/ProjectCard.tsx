@@ -9,7 +9,7 @@ const ProjectCard = ({ name, dates, description, link }: Project) => {
       </div>
       <p>{description}</p>
       {link && (
-        <a href={link} target="_blank" className="font-semibold">
+        <a href={link} target="_blank" rel="noreferrer" className="font-semibold">
           See demo &rarr;
         </a>
       )}

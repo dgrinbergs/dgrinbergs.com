@@ -43,7 +43,7 @@ const Home: NextPage = () => {
 
         <div className="grid grid-cols-1 p-8 gap-4">
           {cards.map((card) => (
-            <Link href={card.link.href}>
+            <Link href={card.link.href} key={card.link.name}>
               <a className="p-4 border border-black dark:border-neutral-300 rounded-md">
                 <h2 className="text-2xl">{card.link.name} &rarr;</h2>
                 <p>{card.excert}</p>
