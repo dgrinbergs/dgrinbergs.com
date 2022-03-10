@@ -5,11 +5,11 @@ const links = [
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/dgrinbergs",
+    href: "https://www.linkedin.com/in/dainisg/",
   },
   {
     name: "Photography Portfolio",
-    href: "https://github.com/dgrinbergs",
+    href: "https://photography.dgrinbergs.com",
   },
 ];
 
