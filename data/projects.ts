@@ -1,6 +1,6 @@
 import { Project } from "../types/Project";
 
-export const projects: Project[] = [
+const projects: Project[] = [
   {
     name: "My Portfolio / This Website",
     dates: "April 2022",
@@ -33,3 +33,5 @@ export const projects: Project[] = [
       "I was told that WebSockets always win prizes on Hackdays. Having never used them before, it was the perfect opportunity to learn a new technology and see what I can come up with within 24 hours",
   },
 ];
+
+export default projects;
