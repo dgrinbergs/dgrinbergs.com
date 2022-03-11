@@ -47,7 +47,8 @@ const Home: NextPage = () => {
             <Link href={card.link.href} key={card.link.name}>
               <motion.a
                 className="p-4 border border-black dark:border-neutral-300 rounded-md hover:border-sky-500 hover:text-sky-500 transition ease-in-out cursor-pointer"
-                whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 1.1}}
+                transition={{ duration: 0.01 }}
               >
                 <h2 className="text-2xl">{card.link.name} &rarr;</h2>
                 <p>{card.excert}</p>
