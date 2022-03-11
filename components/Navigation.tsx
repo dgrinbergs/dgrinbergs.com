@@ -14,7 +14,7 @@ const Navigation = () => {
   return (
     <nav className="flex flex-col justify-between p-4 max-w-7xl m-auto md:flex-row md:items-center md:space-y-0">
       <div className="flex flex-row justify-between items-center">
-        <Link href="/">
+        <Link href="/" passHref>
           <a className="text-2xl font-medium">
             <h1>DGrinbergs.com</h1>
           </a>
@@ -28,7 +28,7 @@ const Navigation = () => {
         <ul className="flex flex-col space-y-4 text-lg py-4">
           {routes.map(({ name, href }) => (
             <li key={name}>
-              <Link href={href}>
+              <Link href={href} passHref>
                 <a
                   className={`${
                     asPath === href
@@ -50,7 +50,7 @@ const Navigation = () => {
         {routes.map(({ name, href }) => (
           // Desktop links
           <motion.li key={name} whileHover={{ scale: 1.1 }}>
-            <Link href={href}>
+            <Link href={href} passHref>
               <a
                 className={`${
                   asPath === href

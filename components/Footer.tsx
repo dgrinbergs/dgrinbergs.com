@@ -18,7 +18,7 @@ const links = [
 const Footer = () => {
   return (
     <footer className="px-4 py-12 grid grid-cols-1 gap-4 max-w-7xl m-auto">
-      <Link href="/">
+      <Link href="/" passHref>
         <a className="w-min font-semibold underline underline-offset-4 hover:text-sky-500 transition ease-in-out">DGrinbergs.com</a>
       </Link>
 
