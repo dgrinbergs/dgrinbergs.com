@@ -1,4 +1,4 @@
-import { Section } from "../types/Section";
+import Section from "../types/Section";
 
 const sections: Section[] = [
   {
