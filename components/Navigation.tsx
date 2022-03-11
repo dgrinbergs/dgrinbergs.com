@@ -11,7 +11,7 @@ const Navigation = () => {
   const { asPath } = useRouter();
 
   return (
-    <nav className="flex flex-col justify-between space-y-2 p-4 max-w-7xl m-auto md:flex-row md:items-center md:space-y-0">
+    <nav className="flex flex-col justify-between p-4 max-w-7xl m-auto md:flex-row md:items-center md:space-y-0">
       <div className="flex flex-row justify-between items-center">
         <Link href="/">
           <a className="text-2xl font-medium">
@@ -24,7 +24,7 @@ const Navigation = () => {
       </div>
       {open && (
         // Mobile links
-        <ul className="flex flex-col space-y-2 text-lg">
+        <ul className="flex flex-col space-y-4 text-lg py-4">
           {routes.map(({ name, href }) => (
             <li key={name}>
               <Link href={href}>
@@ -36,7 +36,7 @@ const Navigation = () => {
           ))}
         </ul>
       )}
-      <ul className="hidden md:flex md:flex-row md:space-y-0 md:items-center md:space-x-4">
+      <ul className="hidden md:flex flex-row space-y-0 items-center space-x-4" style={{height: 50}}>
         {routes.map(({ name, href }) => (
           // Desktop links
           <li key={name}>
