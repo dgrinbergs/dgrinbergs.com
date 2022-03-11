@@ -1,6 +1,6 @@
 import { Section } from "../types/Section";
 
-export const sections: Section[] = [
+const sections: Section[] = [
   {
     name: "Education",
     children: [
@@ -35,7 +35,7 @@ export const sections: Section[] = [
         dates: "June 2020 - Sept 2021",
         text: [
           "I was working in a team to develop enterprise apps which would be used by many UK central government departments",
-          "Apps were written in Java 11 using the Spring Framework and complete with unit, integration and end-to-end tests which I was in charge of writing"
+          "Apps were written in Java 11 using the Spring Framework and complete with unit, integration and end-to-end tests which I was in charge of writing",
         ],
       },
       {
@@ -93,3 +93,5 @@ export const sections: Section[] = [
     ],
   },
 ];
+
+export default sections;

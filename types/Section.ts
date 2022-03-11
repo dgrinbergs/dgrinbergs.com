@@ -1,10 +1,12 @@
-export type SectionChild = {
+type SectionChild = {
   heading: string;
   dates?: string;
   text: string[];
 };
 
-export type Section = {
+type Section = {
   name: string;
   children: SectionChild[];
 };
+
+export default Section;
