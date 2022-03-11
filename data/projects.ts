@@ -24,7 +24,7 @@ export const projects: Project[] = [
     name: "CS:GO Item Sniping Bot",
     dates: "November 2021",
     description:
-      "I have been buying, selling, and trading CS:GO items (before NFTs were cool) and thought it would be an interseting challenge to program something that can do it for me",
+      "I have been buying, selling, and trading CS:GO items (before NFTs were cool) and thought it would be an interesting challenge to program something that can do it for me",
   },
   {
     name: "Fivium Hackday - What's for Lunch?",
