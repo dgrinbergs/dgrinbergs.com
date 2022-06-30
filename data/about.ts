@@ -9,9 +9,8 @@ const sections: Section[] = [
           "University of Kent - BSc Computer Science with a Year in Industry",
         dates: "September 2018 - June 2022",
         text: [
-          "4x Scholarship of Academic Excellence",
-          "On target to achieve a first class honours",
-          "Average grade for final year modules is 87%",
+          "Graduated with a First Class Honours",
+          "4x Scholarships of Academic Excellence",
         ],
       },
       {
@@ -65,9 +64,8 @@ const sections: Section[] = [
       {
         heading: "Backend",
         text: [
-          "Java Spring Boot",
-          "Freemarker for SSR content",
-          "Express.js",
+          "Node.js, Express and TS",
+          "Spring + Spring Boot",
           "Postgres, Oracle SQL and MongoDB",
           "PHP",
         ],
@@ -77,7 +75,7 @@ const sections: Section[] = [
         text: [
           "Vue and Nuxt.js",
           "React and Next.js (this site!)",
-          "TailwindCSS",
+          "Tailwind CSS",
         ],
       },
       {

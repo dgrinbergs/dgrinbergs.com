@@ -2,10 +2,10 @@ import { Project } from "../types/Project";
 
 const projects: Project[] = [
   {
-    name: "My Portfolio / This Website",
+    name: "This Website",
     dates: "April 2022",
     description:
-      "This was my first time using React. I decided to combine it with Next.js and Typescript. I think it turned out quite well.",
+      "My first 'project' that I built using React. Paired with Vercel's Next.js framework, I learned about mixed rendering modes, Typescript and optimising content for fast delivery.",
   },
   {
     name: "SmartGen",
@@ -18,7 +18,7 @@ const projects: Project[] = [
     link: "https://sticky-board.dgrinbergs.com",
     dates: "March 2022",
     description:
-      "This is a project where I wanted to test my knowledge and find out what's possible in Vue and Nuxt.js. What better way to do it then re-creating the most classic sounds a Computer Scientists can hear?",
+      "I created this fun project to learn about Nuxt.js and extends my knowledge of Vue.js. Why not give it a try?",
   },
   {
     name: "CS:GO Item Sniping Bot",

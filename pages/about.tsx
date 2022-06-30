@@ -5,7 +5,7 @@ import data from "../data/about";
 
 const about: NextPage = (props: any) => {
   return (
-    <Layout title="Some Details About Me">
+    <Layout title="Information about me">
       <Sections {...props} />
     </Layout>
   );

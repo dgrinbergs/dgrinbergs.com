@@ -5,7 +5,7 @@ import data from "../data/projects";
 
 const projects: NextPage = (props: any) => {
   return (
-    <Layout title="My Projects">
+    <Layout title="My projects">
       <Projects {...props} />
     </Layout>
   );
