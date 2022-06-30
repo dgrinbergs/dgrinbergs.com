@@ -24,7 +24,7 @@ const sections: Section[] = [
     children: [
       {
         heading: "University of Kent - Peer Tutoring",
-        dates: "September 2021 - Present",
+        dates: "September 2021 - April 2022",
         text: [
           "I help students that are in the first year of their computer science degree get to grips with object-oriented programming using Java",
         ],
