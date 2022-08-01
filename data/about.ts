@@ -23,6 +23,13 @@ const sections: Section[] = [
     name: "Professional Experience",
     children: [
       {
+        heading: "Fivium Ltd - Junior Software Developer",
+        dates: "August 2022 - Present",
+        text: [
+          "Writing various apps in Java Spring Boot and GraphQL",
+        ],
+      },
+      {
         heading: "University of Kent - Peer Tutoring",
         dates: "September 2021 - April 2022",
         text: [
