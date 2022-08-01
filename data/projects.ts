@@ -12,6 +12,7 @@ const projects: Project[] = [
     dates: "March 2022",
     description:
       "Intelligently generated buildings in Minecraft using a genetic algorithm and a modern tech stack.",
+    link: "https://github.com/dgrinbergs/comp6000"
   },
   {
     name: "Sticky Board - Retro Sounds in the Modern Age",
