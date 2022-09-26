@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
-import Hamburger from "./Hamburger";
-import { routes } from "../data/routes";
+import Hamburger from "../Hamburger";
+import { routes } from "../../data/routes";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 

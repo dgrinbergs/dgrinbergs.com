@@ -1,5 +1,5 @@
-import { Project } from "../types/Project";
 import { motion } from "framer-motion";
+import { Project } from "../types/Project";
 
 const ProjectCard = ({ name, dates, description, link }: Project) => {
   return (

@@ -1,5 +1,5 @@
 import type { GetStaticProps, NextPage } from "next";
-import Layout from "../components/Layout";
+import Layout from "../components/ui/Layout";
 import Sections from "../components/Sections";
 import data from "../data/about";
 

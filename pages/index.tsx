@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import Footer from "../components/Footer";
+import Footer from "../components/ui/Footer";
 import { Route } from "../types/Route";
 import { motion } from "framer-motion";
 
@@ -47,8 +47,8 @@ const Home: NextPage = () => {
             <Link href={card.link.href} key={card.link.name} passHref>
               <motion.a
                 className="p-4 border border-black dark:border-neutral-300 rounded-md hover:border-sky-500 hover:text-sky-500 transition ease-in-out cursor-pointer"
-                whileHover={{ scale: 1.1}}
-                transition={{ duration: 0.01 }}
+                whileHover={{ scale: 1.025 }}
+                transition={{ duration: 0.0075 }}
               >
                 <h2 className="text-2xl">{card.link.name} &rarr;</h2>
                 <p>{card.excert}</p>

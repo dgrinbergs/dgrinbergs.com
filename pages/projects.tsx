@@ -1,6 +1,6 @@
 import type { GetStaticProps, NextPage } from "next";
-import Layout from "../components/Layout";
 import Projects from "../components/Projects";
+import Layout from "../components/ui/Layout";
 import data from "../data/projects";
 
 const projects: NextPage = (props: any) => {
