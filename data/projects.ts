@@ -12,11 +12,11 @@ const projects: Project[] = [
     dates: "March 2022",
     description:
       "Intelligently generated buildings in Minecraft using a genetic algorithm and a modern tech stack.",
-    link: "https://github.com/dgrinbergs/comp6000"
+    link: "https://api.dgrinbergs.com/redirector/r/0d0e47d0-dce3-42dd-8d2c-5263b3947280",
   },
   {
     name: "Sticky Board - Retro Sounds in the Modern Age",
-    link: "https://sticky-board.dgrinbergs.com",
+    link: "https://api.dgrinbergs.com/redirector/r/c4daa4a2-c5ff-4cd2-b8ba-49f81de99234",
     dates: "March 2022",
     description:
       "I created this fun project to learn about Nuxt.js and extends my knowledge of Vue.js. Why not give it a try?",

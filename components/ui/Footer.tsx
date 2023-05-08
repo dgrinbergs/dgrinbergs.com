@@ -3,15 +3,15 @@ import Link from "next/link";
 const links = [
   {
     name: "Github",
-    href: "https://github.com/dgrinbergs",
+    href: "https://api.dgrinbergs.com/redirector/r/b63b8c71-875c-42a9-b70b-3e0349a9716a",
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/dainisg/",
+    href: "https://api.dgrinbergs.com/redirector/r/0415e9b2-adc8-4d4e-aa4e-b1718f088337",
   },
   {
     name: "Photography Portfolio",
-    href: "https://photography.dgrinbergs.com",
+    href: "https://api.dgrinbergs.com/redirector/r/5f09420c-b4ac-4d99-b1c6-01f3fe78387e",
   },
 ];
 
